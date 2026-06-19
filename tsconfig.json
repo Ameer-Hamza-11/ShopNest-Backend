@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*", "drizzle.config.ts", "../shared/schemas/order.schema.ts", "../shared/schemas/product.schema.ts"],
+  "exclude": ["node_modules", "dist"]
+}
