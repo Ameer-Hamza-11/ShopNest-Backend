@@ -9,6 +9,12 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["src/**/*", "drizzle.config.ts", "../shared/schemas/order.schema.ts", "../shared/schemas/product.schema.ts"],
+  "include": [
+    "api/**/*", 
+    "src/**/*", 
+    "drizzle.config.ts", 
+    "../shared/schemas/order.schema.ts", 
+    "../shared/schemas/product.schema.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }
