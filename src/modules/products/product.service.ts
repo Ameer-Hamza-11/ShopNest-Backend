@@ -3,7 +3,6 @@ import { db } from "../../config/db";
 import { products } from "../../drizzle/schema";
 import { ProductInputWithImage, UpdateProductInputWithImage } from "./product.types";
 import { ApiError } from "../../utils/apiError";
-import { UpdateProductInput } from "../../../../shared/schemas/product.schema";
 
 export const productService = {
     getProducts: async (page: number, limit: number, search: string = "") => {

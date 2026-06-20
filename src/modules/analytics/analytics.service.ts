@@ -8,7 +8,7 @@ import { UserRole } from "../auth/user.types"
 export const analyticsService = {
     getAdminStats: async () => {
         try {
-            const [totalUsers] = await db.select({ count: count() }).from(users).where(eq(users.role, UserRole.USER))
+            const [totalUsers] = await db.select({ count: count() }).from(users)
             const [totalOrders] = await db.select({ count: count() }).from(orders)
             const [totalProducts] = await db.select({ count: count() }).from(products)
 

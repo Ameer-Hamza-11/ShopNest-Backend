@@ -1,5 +1,5 @@
 import { Multer } from "multer";
-import { ProductInput, UpdateProductInput } from "../../../../shared/schemas/product.schema";
+import { ProductInput, UpdateProductInput } from "../../../../Frontend/client/src/schemas/product.schema";
 
 export type ProductParams = {
   id: string;

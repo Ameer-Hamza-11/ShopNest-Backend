@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { authService } from "./auth.service";
-import { loginSchema, registerSchema, verifyEmailSchema } from "../../../../shared/schemas/auth.schema";
+import { loginSchema, registerSchema, verifyEmailSchema } from "./auth.schema";
 import { ApiResponse } from "../../utils/apiResponse";
 
 export const authController = {

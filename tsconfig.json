@@ -13,8 +13,8 @@
     "api/**/*", 
     "src/**/*", 
     "drizzle.config.ts", 
-    "../shared/schemas/order.schema.ts", 
-    "../shared/schemas/product.schema.ts"
+    "../Frontend/client/src/schemas/order.schema.ts", 
+    "../Frontend/client/src/schemas/product.schema.ts"
   ],
   "exclude": ["node_modules", "dist"]
 }

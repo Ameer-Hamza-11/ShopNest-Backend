@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { productService } from "./product.service";
 import { ApiResponse } from "../../utils/apiResponse";
-import { productSchema, updateProductSchema } from "../../../../shared/schemas/product.schema";
+import { productSchema, updateProductSchema } from "./product.schema";
 import { ProductParams } from "./product.types";
 import cloudinary from "../../config/cloudinary";
 import { uploadToCloudinary } from "../../utils/uploadToCloudinary";

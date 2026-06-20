@@ -7,7 +7,7 @@ import { generateToken } from "../../utils/jwt";
 import { sendMail } from "../../utils/sendMail";
 import { emailTemplates } from "../../templates/emailTemplates";
 import { generateOtp } from "../../utils/otp";
-import { RegisterInput,LoginInput } from "../../../../shared/schemas/auth.schema";
+import { RegisterInput,LoginInput } from "./auth.schema";
 
 export const authService = {
     register: async (userData: RegisterInput) => {

@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { orderService } from "./order.service";
 import { ApiResponse } from "../../utils/apiResponse";
-import { createOrderSchema } from "../../../../shared/schemas/order.schema";
+import { createOrderSchema } from "./order.schema";
 
 
 export type OrderParams = {

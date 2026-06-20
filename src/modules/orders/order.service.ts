@@ -1,7 +1,7 @@
 import { eq, inArray } from "drizzle-orm";
 import { db } from "../../config/db";
 import { orderItems, orders, products, users } from "../../drizzle/schema";
-import { CreateOrderInput } from "../../../../shared/schemas/order.schema";
+import { CreateOrderInput } from "./order.schema";
 import { ApiError } from "../../utils/apiError";
 import { sendMail } from "../../utils/sendMail";
 import { emailTemplates } from "../../templates/emailTemplates";
